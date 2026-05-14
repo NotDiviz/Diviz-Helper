@@ -12,7 +12,7 @@ export const botConfig = {
   // - "invisible" = appears offline
   presence: {
     // Current online state shown on Discord.
-    status: "online",
+    status: "idle",
 
     // Activity lines shown under the bot name.
     // `type` number mapping from Discord:
@@ -25,9 +25,9 @@ export const botConfig = {
     activities: [
       {
         // Text users will see (example: "Playing /help | Titan Bot").
-        name: "Made with ❤️",
+        name: "Kova Discord Server",
         // Activity type number (0 = Playing).
-        type: 0, 
+        type: 03, 
       },
     ],
   },
@@ -88,8 +88,8 @@ export const botConfig = {
   embeds: {
     colors: {
       // Main brand colors.
-      primary: "#336699", 
-      secondary: "#2F3136", 
+      primary: "#800080", 
+      secondary: "#00008B", 
 
       // Standard status colors for success/error/warning/info messages.
       success: "#57F287", 
@@ -156,7 +156,7 @@ export const botConfig = {
   economy: {
     currency: {
       // Currency display name.
-      name: "coins",
+      name: "Kova Coins",
       // Plural display name.
       namePlural: "coins",
       // Currency symbol shown in balances.
@@ -281,7 +281,7 @@ export const botConfig = {
     announcementChannel: null,
 
     // Timezone used to calculate birthday dates.
-    timezone: "UTC",
+    timezone: "EST",
   },
 
   // =========================
@@ -300,7 +300,7 @@ export const botConfig = {
       // - "none"        = everyone is auto-verified immediately
       // - "account_age" = account must be older than set days
       // - "server_size" = auto-verify everyone only in smaller servers
-      defaultCriteria: "none",
+      defaultCriteria: "server_size",
 
       // Days used when `defaultCriteria` is `account_age`.
       defaultAccountAgeDays: 7,
