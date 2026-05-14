@@ -27,7 +27,7 @@ export const botConfig = {
         // Text users will see (example: "Playing /help | Titan Bot").
         name: "Kova Discord Server",
         // Activity type number (0 = Playing).
-        type: 03, 
+        type: 3, 
       },
     ],
   },
